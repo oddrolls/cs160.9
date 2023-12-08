@@ -1,0 +1,13 @@
+TIME COMPLEXITY: 
+MINMAXSUM: The time complexity of Mini-Max Sum is O(nlogn) because though there is a single for loop in the code, there is also Collections.sort of the array which runs in logn time.
+Therefore, O(n) * O(logn) = O(nlogn).
+
+WEIGHTED UNIFORM STRINGS: The time complexity of Weighted Uniform Strings is O(n^2), because that is the largest time complexity in the function. There are plenty of for loops, but
+only one set of nested for loops. The complexity of HashMap creation is constant. 
+
+SPACE COMPLEXITY: 
+MINMAXSUM: The space complexity of Mini-Max Sum is O(1) because we are making alterations on the array that is already given to us as opposed to creating a new array from scratch.
+If we were creating a new array, it would be O(n). But we're not :)
+
+WEIGHTED UNIFORM STRINGS: The space complexity of this function is O(n) because we use extra space in the HashMap. Since the space in the HashMap is dependent on the input n, 
+the space complexity is O(n).
